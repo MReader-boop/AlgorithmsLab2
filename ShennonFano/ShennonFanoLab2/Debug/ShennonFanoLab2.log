@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (ShennoFano.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Source.cpp
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(19,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(52,25): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(117,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(126,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(137,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(139,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Source.cpp(21,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Source.cpp(26,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\List.h(193,2): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\List.h(189): message : во время компиляции функции-члена класс шаблон "void List<Pair<char,int>>::set(size_t,T)"
+          with
+          [
+              T=Pair<char,int>
+          ]
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(147): message : выполняется компиляция ссылки на экземпляр шаблон функции "void List<Pair<char,int>>::set(size_t,T)"
+          with
+          [
+              T=Pair<char,int>
+          ]
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(18): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair<char,int>>"
+C:\Users\klesovi\Desktop\ShennonFano\List.h(107,41): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\List.h(106): message : во время компиляции функции-члена класс шаблон "T List<T>::at(size_t)"
+          with
+          [
+              T=Pair<char,int>
+          ]
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(74): message : выполняется компиляция ссылки на экземпляр шаблон функции "T List<T>::at(size_t)"
+          with
+          [
+              T=Pair<char,int>
+          ]
+C:\Users\klesovi\Desktop\ShennonFano\List.h(117,2): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(40): warning C4172: возвращение адреса локальной или временной переменной : shennon
+C:\Users\klesovi\Desktop\ShennonFano\Map.h(92): warning C4172: возвращение адреса локальной или временной переменной : list
+C:\Users\klesovi\Desktop\ShennonFano\Shennon_Fano.h(94): warning C4715: Shennon_Fano::build_tree: значение возвращается не при всех путях выполнения
+C:\Users\klesovi\Desktop\ShennonFano\Map.h(554): warning C4715: Map<char,int>::find_value: значение возвращается не при всех путях выполнения
+  ShennonFanoLab2.vcxproj -> C:\Users\klesovi\Desktop\ShennonFano\Debug\ShennonFanoLab2.exe
